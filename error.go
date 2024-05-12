@@ -5,7 +5,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/charmbracelet/vhs/parser"
+	"github.com/charmbracelet/vhs/pkg/parser"
 )
 
 // InvalidSyntaxError is returned when the parser encounters one or more errors.

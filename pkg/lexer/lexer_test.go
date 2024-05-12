@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/charmbracelet/vhs/token"
+	"github.com/charmbracelet/vhs/pkg/token"
 )
 
 func TestNextToken(t *testing.T) {

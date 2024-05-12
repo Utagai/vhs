@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/charmbracelet/vhs/lexer"
-	"github.com/charmbracelet/vhs/token"
+	"github.com/charmbracelet/vhs/pkg/lexer"
+	"github.com/charmbracelet/vhs/pkg/token"
 )
 
 // NewError returns a new parser.Error with the given token and message.

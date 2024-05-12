@@ -17,8 +17,8 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/charmbracelet/vhs/lexer"
-	"github.com/charmbracelet/vhs/parser"
+	"github.com/charmbracelet/vhs/pkg/lexer"
+	"github.com/charmbracelet/vhs/pkg/parser"
 	version "github.com/hashicorp/go-version"
 	"github.com/mattn/go-isatty"
 	"github.com/spf13/cobra"
